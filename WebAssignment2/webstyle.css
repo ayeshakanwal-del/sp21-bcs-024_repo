@@ -1,0 +1,165 @@
+
+.navbar {
+    background-color:#edac90; 
+    position: absolute;
+    height:12%;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: none;
+}
+
+
+#logo {
+    margin-top: 10px;
+}
+
+.video-section {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; 
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.video-section .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #fff;
+    object-fit: cover;
+}
+
+.article-section {
+    background-color: #f8f8f8;
+    padding: 60px 0;
+}
+
+.article-section h2 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.article-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.article-card img {
+    width: 100%;
+    max-height: 200px; 
+}
+
+.article-card h3 {
+    font-size: 18px;
+    color: #333;
+    padding: 10px 0;
+}
+
+
+.testimonial-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    height: 100%; 
+}
+
+.testimonial-card img {
+    width: 100%;
+    max-height: 150px; 
+    object-fit: cover; 
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.testimonial-card .testimonial-text {
+    font-size: 16px;
+    color: #555;
+    padding: 10px;
+    height: 100px; 
+    overflow: hidden;
+}
+
+.testimonial-card .testimonial-author {
+    font-size: 18px;
+    color: #333;
+    padding: 10px;
+}
+
+
+.contact-details-section {
+    background-image: url(end.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px 0;
+    margin-top: 15%;
+}
+.col-md-6{
+    margin-top: 15%;
+    color: #e0e0e0;
+}
+
+.contact-details-section h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.contact-details-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.contact-details-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-details-section ul li {
+    margin-bottom: 10px;
+}
+
+
+.contact-details-section::before {
+    content: "";
+    background-color: rgba(0, 0, 0, 0.5); 
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+
+
+
