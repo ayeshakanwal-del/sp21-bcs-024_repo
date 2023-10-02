@@ -1,0 +1,60 @@
+
+body {
+    background-image: url('mpic.jpg');
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.signup-container {
+    max-width: 395px;
+    margin: 5% auto; 
+    padding: 40px;
+    border: 1px solid #034b16;
+    border-radius: 15px;
+    background-color: #0b6964;
+    box-shadow: 0px 0px 10px rgba(194, 20, 20, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    font-weight: bold;
+    color: white;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    width: 100%; 
+    padding: 15px;
+    background-color: #ca821c;
+    border-radius: 5px; 
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: rgb(255, 213, 0);
+}
+
+#message {
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
