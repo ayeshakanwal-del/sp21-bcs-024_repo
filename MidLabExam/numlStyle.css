@@ -1,0 +1,86 @@
+/* numlStyle.css */
+.navbar {
+    background-color: rgb(4, 4, 87);
+    display: flex;
+    justify-content: space-between; /
+    align-items:center;
+    height: 60px; 
+}
+#name{
+    margin-left: 60px;
+}
+
+.navbar-brand {
+    color: white; 
+    font-weight: bold;
+    margin-left: 1%; 
+}
+
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar-nav {
+    margin-right: 20px;
+}
+.logo{
+    height: 30px;
+  
+}
+.blue-navbar {
+    background-color: rgb(77, 77, 213);
+    height: 60px;
+    margin-top: 0%;
+    display: flex;
+
+}
+
+.white-span {
+    color: white;
+    font-weight: bold;
+    margin: 0 20px;
+    position: relative;
+    margin-top: 10px;
+    display: inline-block;
+
+}
+.Slider{
+    margin-top:3px;
+    height: 1000px;
+    width: 1530px;
+    object-fit: cover;
+    margin-right:50%;
+    float: left;
+}
+
+.carousel {
+    margin-top: 0px; 
+}
+
+.carousel-item img {
+    height: 400px; 
+    object-fit: cover; 
+}
+
+.testimonial-card {
+    background-color: #fff;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-align: center;
+    height: 100%; 
+}
+.contact-details-section {
+   
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 80px 0;
+    margin-top: 15%;
+}
+.addInfo{
+    margin-top: 50px;
+}
